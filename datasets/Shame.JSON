@@ -1,7 +1,7 @@
 { 
   "nodes": [
     {"id": "Religion", "group": 6},
-    {"id": "Shame", "group": 8},
+    {"id": "Shame", "group": 11},
     {"id": "'Shameless' by Nadia Bolz Weber", "group": 1},
     {"id": "AFAB", "group": 3},
     {"id": "Asexuality", "group": 2},
@@ -19,7 +19,9 @@
     {"id": "Misogyny", "group": 2},
     {"id": "Male Anatomy", "group": 1},
     {"id": "Cliteracy", "group": 2},
-    {"id": "Sexual Assault", "group": 2}
+    {"id": "Sexual Assault", "group": 2},
+    {"id": "Addiction", "group": 1},
+    {"id": "'Healing the Shame that Binds You' by John Bradshaw", "group": 1}
   ],
   "links": [
     {"source": "Religion","target": "Patriarchy","value": 1},
@@ -49,6 +51,8 @@
     {"source": "Media","target": "Sex Ed","value": 1},
     {"source": "Sex Ed","target": "Cliteracy","value": 1},
     {"source": "Sex","target": "Sexual Assault","value": 1},
-    {"source": "Shame","target": "Sexual Assault","value": 1}
+    {"source": "Shame","target": "Sexual Assault","value": 1},
+    {"source": "Shame","target": "Addiction","value": 1},
+    {"source": "Shame","target": "'Healing the Shame that Binds You' by John Bradshaw","value": 1}
   ]
 }
