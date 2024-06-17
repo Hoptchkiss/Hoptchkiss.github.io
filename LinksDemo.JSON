@@ -1,1 +1,15 @@
-{ "nodes": [{"id": "id1","name": "Gen Z","val": 3},{"id": "id2","name": "Retro-Futurism","val": 1},{"id": "id3","name": "Social Media","val": 2},{"id": "id4","name": "Lost Futures","val": 2},{"id": "id5","name": "Nostalgia","val": 2}],"links": [{"source": "id1","target": "id5",},{"source": "id2","target": "id4",},{"source": "id3","target": "id5",},{"source": "id1","target": "id3",},{"source": "id4","target": "id1",}]}
+{ 
+"nodes": [
+{"id": "Gen Z", "group": 3},
+{"id": "Retro-Futurism", "group": 1},
+{"id": "Social Media", "group": 2},
+{"id": "Lost Futures", "group": 2},
+{"id": "Nostalgia", "group": 2},],
+"links": [
+{"source": "Gen Z","target": "Nostalgia","value": 1},
+{"source": "Retro-Futurism","target": "Lost Futures","value": 1},
+{"source": "Social Media","target": "Nostalgia","value": 1},
+{"source": "Gen Z","target": "Social Media","value": 1},
+{"source": "Lost Futures","target": "Gen Z","value": 1},
+]
+}
