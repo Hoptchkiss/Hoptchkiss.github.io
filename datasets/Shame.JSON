@@ -1,23 +1,25 @@
 { 
   "nodes": [
     {"id": "Religion", "group": 6},
-    {"id": "Shame", "group": 7},
+    {"id": "Shame", "group": 8},
     {"id": "'Shameless' by Nadia Bolz Weber", "group": 1},
     {"id": "AFAB", "group": 3},
     {"id": "Asexuality", "group": 2},
     {"id": "'Pure' by Linda Kay Klein", "group": 1},
-    {"id": "Sex", "group": 2},
+    {"id": "Sex", "group": 7},
     {"id": "Pleasure", "group": 4},
-    {"id": "Media", "group": 2},
+    {"id": "Media", "group": 3},
     {"id": "Female Orgasm", "group": 3},
     {"id": "Female Anatomy", "group": 2},
+    {"id": "Sex Ed", "group": 2},
     {"id": "Patriarchy", "group": 1},
     {"id": "Homophobia", "group": 2},
     {"id": "Transphobia", "group": 2},
     {"id": "Purity Culture", "group": 7},
     {"id": "Misogyny", "group": 2},
     {"id": "Male Anatomy", "group": 1},
-    {"id": "Cliteracy", "group": 1}
+    {"id": "Cliteracy", "group": 2},
+    {"id": "Sexual Assault", "group": 2}
   ],
   "links": [
     {"source": "Religion","target": "Patriarchy","value": 1},
@@ -43,6 +45,10 @@
     {"source": "Female Anatomy","target": "Cliteracy","value": 1},
     {"source": "Religion","target": "Shame","value": 1},
     {"source": "Shame","target": "Pleasure","value": 1},
-    {"source": "Shame","target": "Purity Culture","value": 1}
+    {"source": "Shame","target": "Purity Culture","value": 1},
+    {"source": "Media","target": "Sex Ed","value": 1},
+    {"source": "Sex Ed","target": "Cliteracy","value": 1},
+    {"source": "Sex","target": "Sexual Assault","value": 1},
+    {"source": "Shame","target": "Sexual Assault","value": 1}
   ]
 }
