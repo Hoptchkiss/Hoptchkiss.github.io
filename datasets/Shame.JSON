@@ -1,12 +1,12 @@
 { 
   "nodes": [
     {"id": "Religion", "group": 6},
-    {"id": "Shame", "group": 11},
+    {"id": "Shame", "group": 9},
     {"id": "'Shameless' by Nadia Bolz Weber", "group": 1},
     {"id": "AFAB", "group": 6},
     {"id": "Asexuality", "group": 2},
     {"id": "'Pure' by Linda Kay Klein", "group": 1},
-    {"id": "Sex", "group": 7},
+    {"id": "Sex", "group": 3},
     {"id": "Pleasure", "group": 4},
     {"id": "Media", "group": 3},
     {"id": "Female Orgasm", "group": 4},
