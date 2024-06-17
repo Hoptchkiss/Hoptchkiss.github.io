@@ -1,7 +1,7 @@
 { 
   "nodes": [
     {"id": "Religion", "group": 6},
-    {"id": "Shame", "group": 8},
+    {"id": "Shame", "group": 9},
     {"id": "'Shameless' by Nadia Bolz Weber", "group": 1},
     {"id": "AFAB", "group": 5},
     {"id": "Asexuality", "group": 2},
@@ -18,10 +18,11 @@
     {"id": "Transphobia", "group": 2},
     {"id": "Purity Culture", "group": 7},
     {"id": "Misogyny", "group": 3},
-    {"id": "Male Anatomy", "group": 2},
+    {"id": "Male* Anatomy", "group": 2},
     {"id": "'Cliteracy' TED Talk", "group": 2},
     {"id": "Sexual Assault", "group": 2},
-    {"id": "Addiction", "group": 1}
+    {"id": "Addiction", "group": 1},
+    {"id": "Pride", "group": 1}
   ],
   "links": [
     {"source": "Religion","target": "Patriarchy","value": 1},
@@ -42,7 +43,7 @@
     {"source": "Sex","target": "Pleasure","value": 1},
     {"source": "Pleasure","target": "Female* Orgasm","value": 1},
     {"source": "Media","target": "Female* Orgasm","value": 1},
-    {"source": "Media","target": "Male Anatomy","value": 1},
+    {"source": "Media","target": "Male* Anatomy","value": 1},
     {"source": "Female* Orgasm","target": "Female* Anatomy","value": 1},
     {"source": "Female* Anatomy","target": "'Cliteracy' TED Talk","value": 1},
     {"source": "Religion","target": "Shame","value": 1},
@@ -57,6 +58,7 @@
     {"source": "AFAB","target": "Female* Anatomy","value": 1},
     {"source": "Patriarchy","target": "AMAB","value": 1},
     {"source": "Patriarchy","target": "Misogyny","value": 1},
-    {"source": "AMAB","target": "Male Anatomy","value": 1}
+    {"source": "AMAB","target": "Male* Anatomy","value": 1},
+    {"source": "Shame","target": "Pride","value": 1}
   ]
 }
