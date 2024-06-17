@@ -7,14 +7,14 @@
 
 <body>
   <div id="3d-graph"></div>
-<h1>Hello World</h1>
+  
   <script type="importmap">{ "imports": { "three": "//unpkg.com/three/build/three.module.js" }}</script>
   <script type="module">
     import SpriteText from "//unpkg.com/three-spritetext/dist/three-spritetext.mjs";
 
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/miserables.json')
+        .jsonUrl('../datasets/LinksDemo.json')
         .nodeAutoColorBy('group')
         .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
