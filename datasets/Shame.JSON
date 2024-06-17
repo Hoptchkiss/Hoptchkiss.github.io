@@ -13,16 +13,16 @@
     {"id": "Female Anatomy", "group": 3},
     {"id": "Sex Ed", "group": 2},
     {"id": "Patriarchy", "group": 3},
+    {"id": "AMAB", "group": 2},
     {"id": "Homophobia", "group": 2},
     {"id": "Transphobia", "group": 2},
     {"id": "Purity Culture", "group": 7},
     {"id": "Misogyny", "group": 4},
-    {"id": "Male Anatomy", "group": 1},
+    {"id": "Male Anatomy", "group": 2},
     {"id": "Cliteracy", "group": 2},
     {"id": "Sexual Assault", "group": 2},
     {"id": "Addiction", "group": 1},
-    {"id": "'Healing the Shame that Binds You' by John Bradshaw", "group": 1},
-    {"id": "AMAB", "group": 1}
+    {"id": "'Healing the Shame that Binds You' by John Bradshaw", "group": 1}
   ],
   "links": [
     {"source": "Religion","target": "Patriarchy","value": 1},
@@ -59,6 +59,7 @@
     {"source": "AFAB","target": "Female Orgasm","value": 1},
     {"source": "AFAB","target": "Female Anatomy","value": 1},
     {"source": "Patriarchy","target": "AMAB","value": 1},
-    {"source": "Patriarchy","target": "Misogyny","value": 1}
+    {"source": "Patriarchy","target": "Misogyny","value": 1},
+    {"source": "AMAB","target": "Male Anatomy","value": 1}
   ]
 }
