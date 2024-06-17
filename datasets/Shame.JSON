@@ -14,7 +14,7 @@
     {"id": "Sex Ed", "group": 2},
     {"id": "Patriarchy", "group": 3},
     {"id": "AMAB", "group": 2},
-    {"id": "Purity Culture", "group": 8},
+    {"id": "Purity Culture", "group": 9},
     {"id": "Gender Roles", "group": 2},
     {"id": "Homophobia", "group": 2},
     {"id": "Transphobia", "group": 2},
@@ -24,7 +24,8 @@
     {"id": "Sexual Assault", "group": 2},
     {"id": "Addiction", "group": 1},
     {"id": "Pride", "group": 1},
-    {"id": "Passivity", "group": 1}
+    {"id": "Passivity", "group": 1},
+    {"id": "'The Purity Myth' by Jessica Valenti", "group": 1}
   ],
   "links": [
     {"source": "Religion","target": "Patriarchy","value": 1},
@@ -63,6 +64,7 @@
     {"source": "AMAB","target": "Male* Anatomy","value": 1},
     {"source": "Shame","target": "Pride","value": 1},
     {"source": "Purity Culture","target": "Gender Roles","value": 1},
-    {"source": "Gender Roles","target": "Passivity","value": 1}
+    {"source": "Gender Roles","target": "Passivity","value": 1},
+    {"source": "Purity Culture","target": "'The Purity Myth' by Jessica Valenti","value": 1}
   ]
 }
