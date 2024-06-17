@@ -4,7 +4,7 @@
 {"id": "Retro-Futurism", "group": 1},
 {"id": "Social Media", "group": 2},
 {"id": "Lost Futures", "group": 2},
-{"id": "Nostalgia", "group": 2},],
+{"id": "Nostalgia", "group": 2}],
 "links": [
 {"source": "Gen Z","target": "Nostalgia","value": 1},
 {"source": "Retro-Futurism","target": "Lost Futures","value": 1},
