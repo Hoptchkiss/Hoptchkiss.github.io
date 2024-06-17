@@ -1,31 +1,26 @@
 <head>
   <style> body { margin: 0; } </style>
 
-  <script src="//unpkg.com/3d-force-graph"></script>
-  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+  <script src="//unpkg.com/3d-force-graph-vr"></script>
+  <!--<script src="../../dist/3d-force-graph-vr.js"></script>-->
+
+  <script src="//unpkg.com/three-spritetext"></script>
 </head>
 
 <body>
   <div id="3d-graph"></div>
-  
-  <script type="importmap">{ "imports": { "three": "//unpkg.com/three/build/three.module.js" }}</script>
-  <script type="module">
-    import SpriteText from "//unpkg.com/three-spritetext/dist/three-spritetext.mjs";
 
-    const Graph = ForceGraph3D()
+  <script>
+    const Graph = ForceGraphVR()
       (document.getElementById('3d-graph'))
         .jsonUrl('../datasets/Shame.JSON')
         .nodeAutoColorBy('group')
         .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
-          sprite.material.depthWrite = false; // make sprite background transparent
           sprite.color = node.color;
           sprite.textHeight = 8;
           return sprite;
         });
-
-    // Spread nodes a little wider
-    Graph.d3Force('charge').strength(-200);
 
   </script>
 </body>
