@@ -14,7 +14,7 @@
 
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
-        .jsonUrl('//github.com/vasturiano/3d-force-graph/blob/master/example/datasets/miserables.json')
+        .jsonUrl('../datasets/miserables.json')
         .nodeAutoColorBy('group')
         .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
