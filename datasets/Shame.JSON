@@ -1,7 +1,8 @@
 { 
   "nodes": [
     {"id": "Religion", "group": 6},
-    {"id": "Shameless by Nadia Bolz Weber", "group": 2},
+    {"id": "Shame", "group": 7},
+    {"id": "Shameless by Nadia Bolz Weber", "group": 1},
     {"id": "AFAB", "group": 3},
     {"id": "Asexuality", "group": 2},
     {"id": "Pure by Linda Kay Klein", "group": 1},
@@ -10,7 +11,6 @@
     {"id": "Media", "group": 2},
     {"id": "Female Orgasm", "group": 3},
     {"id": "Female Anatomy", "group": 2},
-    {"id": "Shame", "group": 5},
     {"id": "Patriarchy", "group": 1},
     {"id": "Homophobia", "group": 2},
     {"id": "Transphobia", "group": 2},
@@ -22,8 +22,9 @@
   "links": [
     {"source": "Religion","target": "Patriarchy","value": 1},
     {"source": "Religion","target": "Homophobia","value": 1},
-    {"source": "Shameless by Nadia Bolz Weber","target": "Homophobia","value": 1},
-    {"source": "Shameless by Nadia Bolz Weber","target": "Transphobia","value": 1},
+    {"source": "Shame","target": "Homophobia","value": 1},
+    {"source": "Shame","target": "Transphobia","value": 1},
+    {"source": "Shameless by Nadia Bolz Weber","target": "Shame","value": 1},
     {"source": "Religion","target": "Transphobia","value": 1},
     {"source": "Religion","target": "Purity Culture","value": 1},
     {"source": "Religion","target": "Misogyny","value": 1},
