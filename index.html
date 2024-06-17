@@ -1,20 +1,20 @@
 <head>
   <style> body { margin: 0; } </style>
 
-  <script src="https://unpkg.com/3d-force-graph"></script>
+  <script src="//unpkg.com/3d-force-graph"></script>
   <!--<script src="../../dist/3d-force-graph.js"></script>-->
 </head>
 
 <body>
   <div id="3d-graph"></div>
 
-  <script type="importmap">{ "imports": { "three": "https://unpkg.com/three/build/three.module.js" }}</script>
+  <script type="importmap">{ "imports": { "three": "//unpkg.com/three/build/three.module.js" }}</script>
   <script type="module">
-    import SpriteText from "https://unpkg.com/three-spritetext/dist/three-spritetext.mjs";
+    import SpriteText from "//unpkg.com/three-spritetext/dist/three-spritetext.mjs";
 
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
-        .jsonUrl('https://github.com/vasturiano/3d-force-graph/blob/master/example/datasets/miserables.json')
+        .jsonUrl('../datasets/miserables.json')
         .nodeAutoColorBy('group')
         .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
