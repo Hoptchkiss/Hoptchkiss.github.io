@@ -7,7 +7,7 @@
     {"id": "Asexuality", "group": 2},
     {"id": "'Pure' by Linda Kay Klein", "group": 1},
     {"id": "Sex", "group": 3},
-    {"id": "Pleasure", "group": 4},
+    {"id": "Pleasure", "group": 5},
     {"id": "Media", "group": 3},
     {"id": "Female* Orgasm", "group": 4},
     {"id": "Female* Anatomy", "group": 3},
@@ -16,6 +16,7 @@
     {"id": "AMAB", "group": 2},
     {"id": "Purity Culture", "group": 9},
     {"id": "Gender Roles", "group": 2},
+    {"id": "Pride", "group": 3},
     {"id": "Homophobia", "group": 2},
     {"id": "Transphobia", "group": 2},
     {"id": "Misogyny", "group": 3},
@@ -23,9 +24,9 @@
     {"id": "'Cliteracy' TED Talk", "group": 2},
     {"id": "Sexual Assault", "group": 2},
     {"id": "Addiction", "group": 1},
-    {"id": "Pride", "group": 1},
     {"id": "Passivity", "group": 1},
-    {"id": "'The Purity Myth' by Jessica Valenti", "group": 1}
+    {"id": "'The Purity Myth' by Jessica Valenti", "group": 1},
+    {"id": "Sexuality", "group": 1}
   ],
   "links": [
     {"source": "Religion","target": "Patriarchy","value": 1},
@@ -65,6 +66,8 @@
     {"source": "Shame","target": "Pride","value": 1},
     {"source": "Purity Culture","target": "Gender Roles","value": 1},
     {"source": "Gender Roles","target": "Passivity","value": 1},
-    {"source": "Purity Culture","target": "'The Purity Myth' by Jessica Valenti","value": 1}
+    {"source": "Purity Culture","target": "'The Purity Myth' by Jessica Valenti","value": 1},
+    {"source": "Pride","target": "Sexuality","value": 1},
+    {"source": "Pride","target": "Pleasure","value": 1}
   ]
 }
