@@ -13,7 +13,7 @@
   <script>
     const Graph = ForceGraphVR()
       (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/Manifest.JSON')
+        .jsonUrl('../datasets/Combo.JSON')
         .nodeAutoColorBy('group')
         .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
