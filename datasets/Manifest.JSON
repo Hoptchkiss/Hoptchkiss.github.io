@@ -5,14 +5,13 @@
     {"id": "Filmmaker", "group": 3},
     {"id": "Short Films", "group": 5},
     {"id": "Screenwriter", "group": 9},
-    {"id": "Researcher", "group": 3},
+    {"id": "Researcher", "group": 4},
     {"id": "Musician", "group": 3},
     {"id": "The Collective Dream", "group": 5},
     {"id": "Podcaster", "group": 2},
     {"id": "Novelist", "group": 2},
     {"id": "Model", "group": 2},
     {"id": "Business Owner", "group": 2},
-    {"id": "Research", "group": 1},
     {"id": "Party Boy", "group": 1},
     {"id": "Arkham Interviews", "group": 1},
     {"id": "Woman Ocean", "group": 1},
@@ -71,6 +70,6 @@
     {"source": "Model","target": "Fitness","value": 1},
     {"source": "Musician","target": "DJ","value": 1},
     {"source": "Business Owner","target": "I Can Learn Coding Course","value": 1},
-    {"source": "Research","target": "Shame","value": 1}
+    {"source": "Researcher","target": "Shame","value": 1}
   ]
 }
