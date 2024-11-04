@@ -12,6 +12,7 @@
     {"id": "Novelist", "group": 2},
     {"id": "Model", "group": 2},
     {"id": "Business Owner", "group": 2},
+    {"id": "Research", "group": 1},
     {"id": "Party Boy", "group": 1},
     {"id": "Arkham Interviews", "group": 1},
     {"id": "Woman Ocean", "group": 1},
@@ -32,7 +33,8 @@
     {"id": "With Her", "group": 1},
     {"id": "Fitness", "group": 1},
     {"id": "DJ", "group": 1},
-    {"id": "I Can Learn Coding Course", "group": 1}
+    {"id": "I Can Learn Coding Course", "group": 1},
+    {"id": "Shame", "group": 1}
   ],
   "links": [
     {"source": "MARQUS","target": "Musician","value": 1},
@@ -68,6 +70,7 @@
     {"source": "MARQUS","target": "Model","value": 1},
     {"source": "Model","target": "Fitness","value": 1},
     {"source": "Musician","target": "DJ","value": 1},
-    {"source": "Business Owner","target": "I Can Learn Coding Course","value": 1}
+    {"source": "Business Owner","target": "I Can Learn Coding Course","value": 1},
+    {"source": "Research","target": "Shame","value": 1}
   ]
 }
